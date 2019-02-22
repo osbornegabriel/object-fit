@@ -1,0 +1,15 @@
+body {
+  color: #e4e4e4;
+  font-size: 5rem;
+  margin-bottom: .5em;
+}
+
+.card {
+  background: lightgreen;
+  width: 350px;
+  padding: 3rem;
+}
+
+.card__image {
+
+}
