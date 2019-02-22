@@ -15,6 +15,17 @@ body {
 .card__image {
   width: 100%;
   height: 150px;
-  /*object-fit: cover;*/
-  /*object-position: bottom left;*/
+  object-fit: cover;
+  object-position: bottom left;
+
+  /*object-fit: contain;*/
+
+  /*object-fit: fill;*/
+  /* ^^ Stretched image to fit requested dimensions */
+
+  /*object-fit: none;*/
+  /* If you don't want to resize image, and just show parts of it ^^*/
+
+  /*object-fit: scale-down;*/
+  /* Browser support is great for object-fit, except with Internet Explorer */
 }
